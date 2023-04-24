@@ -1,0 +1,25 @@
+print "What's your first name?'"
+first_name=gets.chomp
+first_name=first_name.capitalize
+first_name.capitalize!
+print "What's your last name?'"
+last_name=gets.chomp
+last_name=last_name.capitalize
+last_name.capitalize!
+print "which city do you live in?"
+city=gets.chomp
+city=city.capitalize
+city.capitalize!
+print "Which state or province do you live in?"
+state=gets.chomp
+state=state.upcase
+state.upcase!
+
+first_name="Ilter"
+puts "Your name is #{first_name}!"
+last_name="Agbas"
+puts "Your last name is #{last_name}!"
+city="London"
+puts "Your city is #{city}!"
+state="uk"
+puts "Your state is #{state}!"
